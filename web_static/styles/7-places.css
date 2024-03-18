@@ -1,0 +1,33 @@
+@import url("6-filters.css");
+
+.places {
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+}
+
+.places h1 {
+	font-size: 30px
+}
+
+.places ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.places li article {
+	align-items: center;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: #FF5A5F 1px solid;
+	border-radius: 4px;
+}
+
+.places article h2 {
+	font-size: 30px;
+}
+
