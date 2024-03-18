@@ -6,13 +6,15 @@ footer {
 
 .places h1 {
 	font-size: 30px;
+	text-align: left !important;
 }
 
 .places {
-	display: inline-block;
+	text-align: center;
 }
+
 .places article {
-	float: left;
+	display: inline-block;
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
