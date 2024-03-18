@@ -37,6 +37,12 @@
 	display: inline;
 }
 
+.max_guest span,
+.number_rooms span,
+.number_bathrooms span {
+	margin-top: 70px;
+}
+
 .max_guest {
 	background-image: url("../images/icon_group.png");
 }
