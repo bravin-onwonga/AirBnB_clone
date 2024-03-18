@@ -1,25 +1,18 @@
 @import url("6-filters.css");
 
-.places {
-	display: flex;
-	flex-direction: column;
-	font-size: 30px;
+footer {
+	position: relative !important;
 }
 
 .places h1 {
-	font-size: 30px
+	font-size: 30px;
 }
 
-.places ul {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+.places {
+	display: inline-block;
 }
-
-.places li article {
-	align-items: center;
+.places article {
+	float: left;
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
