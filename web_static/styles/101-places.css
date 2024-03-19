@@ -1,0 +1,166 @@
+@import url("4-common.css");
+@import url("3-header.css");
+@import url("3-footer.css");
+@import url("6-filters.css");
+
+footer {
+	position: relative !important;
+}
+
+.places {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: black;
+	text-align: center;
+}
+
+.places h1 {
+	font-size: 30px;
+	text-align: left;
+}
+
+.articles_div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.places article .article_head {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.places article {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: #FF5A5F 1px solid;
+	border-radius: 4px;
+}
+
+.places article h2 {
+	margin-top: 0;
+	font-size: 30px;
+}
+
+.places .articles_div article h2 {
+	margin-bottom: 40px;
+}
+
+.price_by_night {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FF5A5F;
+	border: solid #FF5A5F 4px;
+	border-radius: 50px;
+	min-width: 60px;
+	height: 60px;
+	font-size: 20px;
+}
+
+.information {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	height: 80px;
+	border-top: solid #DDDDDD 1px;
+	border-bottom: solid #DDDDDD 1px;
+	margin: 10px auto;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.max_guest p,
+.number_rooms p,
+.number_bathrooms p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.max_guest img,
+.number_rooms img,
+.number_bathrooms img {
+	height: 40px;
+	width: 40px;
+}
+
+.user {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.description {
+	text-align: justify;
+}
+
+.places article .amenities,
+.places article .reviews {
+	margin-top: 40px;
+	width: 390px;
+	text-align: left;
+}
+
+.places article .amenities {
+	height: 170px;
+}
+
+.places article .amenities h2 {
+	font-size: 16px;
+	border-bottom: solid #DDDDDD 1px;
+}
+
+.pet_amenity,
+.tv_amenity,
+.wifi_amenity {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.pet_amenity img,
+.tv_amenity img,
+.wifi_amenity img {
+	height: 30px;
+	width: 30px;
+}
+
+.pet_amenity p,
+.tv_amenity p,
+.wifi_amenity p {
+	margin-left: 10px;
+}
+
+.places article .reviews h2 {
+	font-size: 16px;
+	border-bottom: solid #DDDDDD 1px;
+}
+
+article .reviews ul li h3 {
+	display: flex;
+}
+
+.reviews ul li p {
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+}

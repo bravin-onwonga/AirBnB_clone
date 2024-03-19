@@ -1,8 +1,12 @@
 @import url("7-places.css");
 
+.places article h2 {
+	margin-bottom: 40px;
+}
+
 .price_by_night {
 	clear: both;
-	margin-top: -90px;
+	margin-top: -80px;
 	color: #FF5A5F;
 	border: solid #FF5A5F 4px;
 	border-radius: 50px;
@@ -21,7 +25,7 @@
 	height: 80px;
 	border-top: solid #DDDDDD 1px;
 	border-bottom: solid #DDDDDD 1px;
-	margin: auto;
+	margin: 10px auto;
 	margin-bottom: 10px;
 }
 
@@ -35,9 +39,6 @@
 	background-size: 50px 50px;
 	line-height: 60px;
 	display: inline;
-	-webkit-box-sizing: border-box;
-     	-moz-box-sizing: border-box;
-        box-sizing: border-box;
 }
 
 .max_guest p,

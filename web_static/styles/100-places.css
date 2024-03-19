@@ -1,1 +1,65 @@
 @import url("8-places.css");
+
+.places article .amenities,
+.places article .reviews {
+	clear: both;
+	width: 390px;
+    	margin-top: 40px;
+	text-align: left;
+}
+
+.places article .amenities {
+	margin-top: 40px;
+}
+
+.places article .amenities h2 {
+	font-size: 16px;
+	border-bottom: solid #DDDDDD 1px;
+}
+
+.pet_amenity {
+	background-image: url("../images/icon_pets.png");
+}
+
+.tv_amenity {
+	background-image: url("../images/icon_tv.png");
+}
+.wifi_amenity {
+	background-image: url("../images/icon_wifi.png");
+}
+
+.pet_amenity,
+.tv_amenity,
+.wifi_amenity {
+	clear: both;
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	line-height: 40px;
+}
+
+.pet_amenity p,
+.tv_amenity p,
+.wifi_amenity p {
+	clear: both;
+	margin-left: 50px;
+}
+
+.places article .reviews h2 {
+	font-size: 16px;
+	border-bottom: solid #DDDDDD 1px;
+}
+
+article .reviews ul li h3 {
+	text-align: left;
+	margin-left: 0;
+}
+
+article .reviews ul li p {
+	clear: both;
+	text-align: left;
+	margin-left: 0 !important;
+}
+

@@ -16,6 +16,7 @@ footer {
 .places article {
 	clear: both;
 	display: inline-block;
+	vertical-align: top;
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
@@ -24,5 +25,6 @@ footer {
 }
 
 .places article h2 {
+	margin-top: 0;
 	font-size: 30px;
 }
