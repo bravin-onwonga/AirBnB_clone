@@ -52,8 +52,6 @@ footer {
 
 .places .articles_div article h2 {
 	margin-bottom: 40px;
-	margin-left: 60px;
-
 }
 
 .price_by_night {
@@ -165,5 +163,6 @@ article .reviews ul li h3 {
 .reviews ul li p {
 	display: flex;
 	justify-content: flex-start;
-	text-align: left;
+	text-align: left !important;
+	margin-left: 0;
 }
