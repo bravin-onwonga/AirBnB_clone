@@ -5,7 +5,8 @@
 	background-color: #FAFAFA;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	margin-top: 0;
+	padding: 30px;
+	align-items: center;
 }
 
 li {

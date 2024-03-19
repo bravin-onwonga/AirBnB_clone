@@ -9,7 +9,7 @@
 	min-width: 60px;
 	height: 60px;
 	line-height: 60px;
-	font-size: 30px;
+	font-size: 20px;
 	float: right;
 }
 
@@ -35,24 +35,31 @@
 	background-size: 50px 50px;
 	line-height: 60px;
 	display: inline;
+	-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+        box-sizing: border-box;
 }
 
-.max_guest span,
-.number_rooms span,
-.number_bathrooms span {
-	margin-top: 70px;
+.max_guest p,
+.number_rooms p,
+.number_bathrooms p {
+	margin-top: 30px;
+	margin-right: 10px;
 }
 
 .max_guest {
 	background-image: url("../images/icon_group.png");
+	background-position-x: 20px;
 }
 
 .number_rooms {
 	background-image: url("../images/icon_bed.png");
+	background-position-x: 20px;
 }
 
 .number_bathrooms {
 	background-image: url("../images/icon_bath.png");
+	background-position-x: 20px;
 }
 
 .user {
