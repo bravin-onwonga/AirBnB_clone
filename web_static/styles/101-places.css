@@ -52,6 +52,8 @@ footer {
 
 .places .articles_div article h2 {
 	margin-bottom: 40px;
+	margin-left: 60px;
+
 }
 
 .price_by_night {
@@ -64,6 +66,7 @@ footer {
 	min-width: 60px;
 	height: 60px;
 	font-size: 20px;
+	margin-left: 60px;
 }
 
 .information {
